@@ -1,0 +1,160 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    margin: 20px;
+    padding-top: 80px; 
+}
+main {
+    flex: 3;
+    background: #fff;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+aside {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 28%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+}
+button {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #03374E;
+    color: #fff;
+}
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+.portfolio-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.portfolio-item {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 28%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.portfolio-item img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensures the aspect ratio is maintained and the image covers the entire area */
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+main section {
+    margin-bottom: 20px;
+}
+
+.section-offset {
+    padding-top: 80px; 
+    margin-top: -80px;
+}
+
+aside h3 {
+    margin-top: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #03374E; /* Link color */
+}
+
+aside ul li a:hover {
+    text-decoration: underline; /* Hover effect for links */
+}
